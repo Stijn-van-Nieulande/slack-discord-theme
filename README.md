@@ -1,9 +1,21 @@
 # Slack Discord Theme
-For those who share my love of Discord's dark theme.
 
 **_Note: Windows only!_**
 
 # Setup
+Go to your Slack static folder that you can find in `C:\Users\Username\AppData\Local\slack\app-x.x.x\resources\app.asar.unpacked\src\static`, open the file named `ssb-interop.js` and add the following code at the bottom of the file:
+```javascript
+document.addEventListener('DOMContentLoaded', function () {
+    $.ajax({
+        url: 'https://raw.githubusercontent.com/Stijn-van-Nieulande/slack-discord-theme/master/out/main.css',
+        success: function (css) {
+            $("<style></style>").appendTo('head').html(css);
+        }
+    });
+});
+```
+
+# Development Setup
 Simply run `npm start`. This will inject the `scripts/ssb-interop.js` 
 file into Slack's electron startup script. The script sets Slack's 
 styling, and also enables the developer console.
