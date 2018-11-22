@@ -17,6 +17,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 and don't forget to change your sidebar colors :wink: `#2e3136,#282b30,#282b30,#ffffff,#282b30,#818386,#43b581,#7289da`
 
+*Note: Always modify the latest version of slack*
+
 # Development Setup
 Simply run `npm start`. This will inject the `scripts/ssb-interop.js` 
 file into Slack's electron startup script. The script sets Slack's 
