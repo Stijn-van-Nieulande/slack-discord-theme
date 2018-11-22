@@ -1,6 +1,6 @@
 # Slack Discord Theme
 
-**_Note: Windows only!_**
+**_Note: Windows only! (Windows 10 store app won't work)_**
 
 # Setup
 Go to your Slack static folder that you can find in `%LOCALAPPDATA%\slack\app-x.x.x\resources\app.asar.unpacked\src\static`, open the file named `ssb-interop.js` and add the following code at the bottom of the file:
