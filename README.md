@@ -3,7 +3,7 @@
 **_Note: Windows only!_**
 
 # Setup
-Go to your Slack static folder that you can find in `C:\Users\Username\AppData\Local\slack\app-x.x.x\resources\app.asar.unpacked\src\static`, open the file named `ssb-interop.js` and add the following code at the bottom of the file:
+Go to your Slack static folder that you can find in `%LOCALAPPDATA%\slack\app-x.x.x\resources\app.asar.unpacked\src\static`, open the file named `ssb-interop.js` and add the following code at the bottom of the file:
 ```javascript
 document.addEventListener('DOMContentLoaded', function () {
     $.ajax({
