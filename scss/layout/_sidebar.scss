@@ -54,6 +54,9 @@
   &__channel--im-slackbot.p-channel_sidebar__channel--selected::before {
     color: $base-font-color;
   }
+  &__channel--im-slackbot::before {
+    color: $color-button-primary !important;
+  }
 
   &__channel--im .c-presence--away {
     color: $color-highlight;

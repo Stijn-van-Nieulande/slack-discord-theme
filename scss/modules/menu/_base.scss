@@ -125,6 +125,10 @@
     &.delete_link {
       color: $color-red;
     }
+
+    &:not(.inline_menu_link) {
+      background: #25282d;
+    }
   }
 
   input {
@@ -159,6 +163,18 @@
         color: $base-font-color;
         text-shadow: 0 1px 0 $color-shadow-light;
       }
+    }
+  }
+}
+
+.c-menu {
+  background: $color-shade-dark;
+
+  .c-menu_item__button {
+    color: $base-font-color;
+
+    &.c-menu_item__button--highlighted {
+      background: #25282d;
     }
   }
 }

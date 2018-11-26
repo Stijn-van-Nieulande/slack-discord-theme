@@ -64,3 +64,12 @@
 .sk_black {
   color: inherit;
 }
+
+.c-react_search_input:active .icon_search_wrapper *,
+.c-react_search_input:active .search_input_wrapper *,
+.c-react_search_input:focus .icon_search_wrapper *,
+.c-react_search_input:focus .search_input_wrapper *,
+.c-react_search_input:hover .icon_search_wrapper *,
+.c-react_search_input:hover .search_input_wrapper * {
+  color: #c7c7c7 !important;
+}

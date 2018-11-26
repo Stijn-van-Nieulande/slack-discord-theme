@@ -88,3 +88,18 @@
     background-color: $color-shade-dark;
   }
 }
+
+.c-dialog__content {
+  background: $color-shade-mid;
+
+  .c-dialog__header {
+    background: $color-shade-mid;
+
+    .c-dialog__title {
+      color: $color-font-sidebar-header;
+    }
+  }
+  .c-dialog__footer {
+    background: $color-shade-mid;
+  }
+}

@@ -1,0 +1,63 @@
+.c-button--outline,
+.c-button--outline-primary {
+  background-color: #42464D;
+  color: #C0C1C2;
+  box-shadow: none;
+  border: 1px solid #202225;
+}
+
+.c-button--outline-primary {
+  color: $color-button-primary;
+
+  &:hover {
+    box-shadow: inset 0 0 0 1px rgba($color-button-primary, .3), 0 1px 4px rgba(44, 45, 48, .2);
+  }
+}
+
+.c-button--primary {
+  background: #7289DA;
+}
+
+.inline_file_upload,
+.file_upload_btn {
+  .ts_icon,
+  ts-icon.ts_icon_plus_thick.upload_plus_icon {
+    background: $color-shade-lightest;
+    color: $color-shade-light;
+    padding: 4px 3px;
+    border-radius: 50%;
+    width: 1.7em;
+    height: 1.7em;
+  }
+
+  &.active,
+  &.focus-ring,
+  &:focus,
+  &:hover {
+    .ts_icon,
+    ts-icon.ts_icon_plus_thick.upload_plus_icon {
+      background: $color-font-message-sender;
+      border-color: $color-shade-light;
+      color: $color-shade-light !important;
+    }
+  }
+}
+
+.file_upload_btn .ts_icon {
+  line-height: 1;
+}
+
+#primary_file_button {
+  .ts_icon {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+  &.active,
+  &.focus-ring,
+  &:focus,
+  &:hover {
+    background: $color-shade-light !important;
+  }
+}

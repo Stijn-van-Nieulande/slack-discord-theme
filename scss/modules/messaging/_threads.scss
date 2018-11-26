@@ -45,7 +45,6 @@
   background: $color-base;
 }
 
-
 ts-thread {
   background: $color-base;
 
@@ -104,7 +103,7 @@ ts-thread .thread_participants {
 
 .reply_input_container .inline_message_input_container .ql-container {
   background-color: $color-shade-light;
-  border: 1px solid $color-shade-dark;
+  //border: 1px solid $color-shade-dark;
 
   .ql-editor {
     &::-webkit-scrollbar-thumb {

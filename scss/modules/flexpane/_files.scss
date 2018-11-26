@@ -388,7 +388,7 @@ html.no_touch a.filetype_button_web:hover {
 
 .c-file {
   &__actions {
-    background: $color-shade-light;
+    //background: $color-shade-light;
   }
 
   &__action_button,
@@ -422,5 +422,25 @@ html.no_touch a.filetype_button_web:hover {
   &__description,
   &__title {
     color: $base-font-color;
+  }
+}
+
+.p-file_flexpane {
+  .p-file_list__filters {
+    background: $color-shade-dark;
+    border-color: $color-shade-darkest;
+  }
+  .p-file_list {
+    background: $color-shade-dark;
+
+    .p-file_list__file.c-pillow_file_container--full_width {
+      background: $color-shade-mid;
+      border-color: $color-shade-dark;
+
+      &:hover {
+        background: $color-shade-light;
+        border-color: $color-shade-darkest;
+      }
+    }
   }
 }

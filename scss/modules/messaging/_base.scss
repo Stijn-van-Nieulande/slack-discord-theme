@@ -2,7 +2,8 @@
   background: $color-base;
 }
 
-#col_messages {
+#col_messages,
+#client_body:not(.onboarding):not(.feature_global_nav_layout):before {
   box-shadow: inset 1px 0 0 0 $color-base;
 }
 
@@ -71,7 +72,6 @@
   &--custom_response {
     background: rgba($color-shade-darkest, 0.15);
   }
-
 
   &--sli_highlight_negative,
   &--ephemeral {
