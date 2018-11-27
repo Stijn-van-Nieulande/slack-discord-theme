@@ -2857,6 +2857,21 @@ ts-thread .thread_participants {
 #client_body:not(.onboarding):not(.feature_global_nav_layout):before {
   background: #2F3136; }
 
+#downloads_tab .p-downloads_list .p-download_item:hover {
+  border-color: #2F3136; }
+
+#downloads_tab .p-downloads_list .p-download_item__container {
+  margin-left: 3.75rem; }
+
+#downloads_tab .p-downloads_list .p-download_item__actions {
+  background: transparent; }
+
+#downloads_tab .p-downloads_list .p-download_item__action_icon {
+  background: #7289DA; }
+
+#downloads_tab .p-downloads_list .p-downloads_list__shift_hint {
+  background: transparent; }
+
 #details_tab .heading {
   background: #2a2c30; }
   #details_tab .heading a.close_flexpane {

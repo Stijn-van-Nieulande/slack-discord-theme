@@ -138,3 +138,25 @@
 #client_body:not(.onboarding):not(.feature_global_nav_layout):before {
   background: $color-shade-dark;
 }
+
+#downloads_tab {
+  .p-downloads_list {
+    .p-download_item {
+      &:hover {
+        border-color: $color-shade-dark;
+      }
+      &__container {
+        margin-left: 3.75rem;
+      }
+      &__actions {
+        background: transparent;
+      }
+      &__action_icon {
+        background: $color-button-primary;
+      }
+    }
+    .p-downloads_list__shift_hint {
+      background: transparent;
+    }
+  }
+}
