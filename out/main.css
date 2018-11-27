@@ -2870,7 +2870,7 @@ ts-thread .thread_participants {
   background: #7289DA; }
 
 #downloads_tab .p-downloads_list .p-downloads_list__shift_hint {
-  background: transparent; }
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0), #36393E 25%, #36393E); }
 
 #details_tab .heading {
   background: #2a2c30; }

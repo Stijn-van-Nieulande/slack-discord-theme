@@ -156,7 +156,7 @@
       }
     }
     .p-downloads_list__shift_hint {
-      background: transparent;
+      background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), $color-shade-mid 25%, $color-shade-mid);
     }
   }
 }
