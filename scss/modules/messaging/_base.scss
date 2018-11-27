@@ -300,13 +300,16 @@
 .c-message_list {
   &__unread_divider {
     &__separator {
-      border-color: $color-shade-light;
+      border-color: rgba($color-light-red, 0.8);
     }
 
     &__label {
-      background: $color-base;
-      box-shadow: 0 0 2px $color-shadow-medium;
-      color: $color-shade-light;
+      background: $color-shade-mid;
+      border: 0;
+      box-shadow: none;
+      color: $color-light-red;
+      text-transform: uppercase;
+      line-height: 11px;
     }
   }
 
