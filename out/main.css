@@ -1666,12 +1666,15 @@ textarea[readonly] {
     color: #C0C1C2; }
 
 .c-message_list__unread_divider__separator {
-  border-color: #42464D; }
+  border-color: rgba(240, 71, 71, 0.8); }
 
 .c-message_list__unread_divider__label {
   background: #36393E;
-  box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
-  color: #42464D; }
+  border: 0;
+  box-shadow: none;
+  color: #f04747;
+  text-transform: uppercase;
+  line-height: 11px; }
 
 .c-message_list__spinner {
   color: #949494; }
@@ -4211,8 +4214,14 @@ a.c-member_slug--mention:hover {
     background: #36393E; }
     .c-dialog__content .c-dialog__header .c-dialog__title {
       color: #84878b; }
+  .c-dialog__content .c-dialog__body .ql-editor p {
+    color: #C0C1C2; }
   .c-dialog__content .c-dialog__footer {
     background: #36393E; }
+    .c-dialog__content .c-dialog__footer_text .c-label__text {
+      color: #C0C1C2; }
+      .c-dialog__content .c-dialog__footer_text .c-label__text .c-input_select_options_list__option .c-input_select__secondary_member_name {
+        color: #C0C1C2; }
 
 .p-apps_browser__apps_list--loading::before {
   background-color: #2F3136; }
@@ -4840,6 +4849,13 @@ ts-jumper ol:not(.keyboard_active) li:hover ts-icon {
     border-color: #42464D; }
     #share_dialog_input_container #file_comment_textarea.ql-container.focus ~ .emo_menu {
       color: #C0C1C2; }
+
+.p-file_upload_dialog__preview {
+  background-color: #fff;
+  background-image: -webkit-linear-gradient(45deg, #efefef 25%, transparent 25%, transparent 75%, #efefef 75%, #efefef), -webkit-linear-gradient(45deg, #efefef 25%, transparent 25%, transparent 75%, #efefef 75%, #efefef);
+  background-position: 0 0, 10px 10px;
+  -webkit-background-size: 21px 21px;
+  border: 0; }
 
 .ts_tip .ts_tip_multiline_inner,
 .ts_tip:not(.ts_tip_multiline) .ts_tip_tip {

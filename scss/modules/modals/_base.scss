@@ -99,7 +99,26 @@
       color: $color-font-sidebar-header;
     }
   }
+  .c-dialog__body {
+    .ql-editor {
+      p {
+        color: $base-font-color;
+      }
+    }
+  }
   .c-dialog__footer {
     background: $color-shade-mid;
+
+    &_text {
+      .c-label__text {
+        color: $base-font-color;
+
+        .c-input_select_options_list__option {
+          .c-input_select__secondary_member_name {
+            color: $base-font-color;
+          }
+        }
+      }
+    }
   }
 }
